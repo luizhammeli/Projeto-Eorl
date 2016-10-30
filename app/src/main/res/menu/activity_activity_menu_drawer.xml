@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/plus_circle"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/tooltip_edit"
+            android:title="Alterar Cadastro" />
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/key"
+            android:title="Reset de Senha" />
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fale Conosco" />
+            <item
+                android:id="@+id/nav_tutorial"
+                android:icon="@drawable/checkbox_marked_circle"
+                android:title="Questionário de Satisfação" />
+        </menu>
+    </item>
+
+    <item android:title="Gerenciamento">
+        <menu>
+            <item
+                android:id="@+id/nav_logoff"
+                android:icon="@drawable/logout"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,219 @@
+{
+  "DIAGNOSTICO":
+  [{
+  	"NOME": "Amigdalite Aguda",
+    "QUADRO_CLINICO": "Teste",
+    "EXAME_FISICO": "Teste",
+    "ATENCAO": "Teste",
+    "ANTIBIOTICO": "Teste",
+    "ALERGIA": "Teste",
+    "MEDICACOES_ASSOCIADAS": "Teste",
+    "DESC": "Teste 2"
+  },
+    {
+      "NOME": "Amigdalite Aguda",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Cerume Impactado",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Corpo Estranho de Laringe",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Corpo Estranho de Nariz",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Corpo Estranho de Ouvido",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Epistaxe",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+    "NOME": "Otite Externa Aguda",
+    "QUADRO_CLINICO": "Infecção de vias aéreas superiores seguida de otalgia\nFebre\nPlenitude auricular",
+    "EXAME_FISICO": "Membrana timpânica congesta e hiperemiada, sem brilho e com alteração da posição ou apagamento do trígono luminoso",
+    "ATENCAO": "OMA supurada: otalgia intensa seguida por alívio da dor. O exame físico revela pus no conduto auditivo e, após limpeza, é possível observar perfuração. Essa perfuração tende a fechar em 7 a 14 dias",
+    "ANTIBIOTICO": "1ª opção: AMOXICILINA\n-Dose: 300mg\n\nEm caso de resistência:\n1) AMOXICILINA\n-Dose: 300mg\n",
+    "ALERGIA": "Conteúdo Alergia",
+    "MEDICACOES_ASSOCIADAS": "Teste",
+    "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Otite Externa Necrotizante",
+      "QUADRO_CLINICO": "Infecção de vias aéreas superiores seguida de otalgia\nFebre\nPlenitude auricular",
+      "EXAME_FISICO": "Membrana timpânica congesta e hiperemiada, sem brilho e com alteração da posição ou apagamento do trígono luminoso",
+      "ATENCAO": "OMA supurada: otalgia intensa seguida por alívio da dor. O exame físico revela pus no conduto auditivo e, após limpeza, é possível observar perfuração. Essa perfuração tende a fechar em 7 a 14 dias",
+      "ANTIBIOTICO": "1ª opção: AMOXICILINA\n-Dose: 300mg\n\nEm caso de resistência:\n1) AMOXICILINA\n-Dose: 300mg\n",
+      "ALERGIA": "Conteúdo Alergia",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Otite Média Aguda",
+      "QUADRO_CLINICO": "Infecção de vias aéreas superiores seguida de otalgia\nFebre\nPlenitude auricular",
+      "EXAME_FISICO": "Membrana timpânica congesta e hiperemiada, sem brilho e com alteração da posição ou apagamento do trígono luminoso",
+      "ATENCAO": "OMA supurada: otalgia intensa seguida por alívio da dor. O exame físico revela pus no conduto auditivo e, após limpeza, é possível observar perfuração. Essa perfuração tende a fechar em 7 a 14 dias",
+      "ANTIBIOTICO": "1ª opção: AMOXICILINA\n-Dose: 300mg\n\nEm caso de resistência:\n1) AMOXICILINA\n-Dose: 300mg\n",
+      "ALERGIA": "Conteúdo Alergia",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Otite Média Crônica Agudizada",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Paralisia Facial",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Rinite Alergica",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Surdez Súbita",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Trauma",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    },
+    {
+      "NOME": "Vertigem",
+      "QUADRO_CLINICO": "Teste",
+      "EXAME_FISICO": "Teste",
+      "ATENCAO": "Teste",
+      "ANTIBIOTICO": "Teste",
+      "ALERGIA": "Teste",
+      "MEDICACOES_ASSOCIADAS": "Teste",
+      "DESC": "Teste 2"
+    }
+  ],
+  "CALCULADORA":[{
+    "NOME":"Amoxilina",
+    "DOSE":"45",
+    "MG":"400",
+    "ML":"5",
+    "FREQUENCIA_DIARIA":"2"
+  },
+    {
+    "NOME":"Cefalexina",
+    "DOSE":"45",
+    "MG":"400",
+    "ML":"5",
+    "FREQUENCIA_DIARIA":"2"
+  }
+
+],
+  "CORTICOIDE":[{
+    "NOME":"Cortisona",
+    "VALOR":"25"
+  },
+    {
+      "NOME":"Hidrocortisona",
+      "VALOR":"20"
+    },
+    {
+      "NOME":"Prednisona",
+      "VALOR":"5"
+    },
+    {
+      "NOME":"Prednisolona",
+      "VALOR":"5"
+    },
+    {
+      "NOME":"Triancinolona",
+      "VALOR":"4"
+    },
+    {
+      "NOME":"Metilprednisolona",
+      "VALOR":"4"
+    }
+  ],
+  "BULA":
+  [{
+    "NOME": "Amoxicilina",
+    "APRESENTACAO": "Cápsulas 500 mg e BD: 875 mg\nSuspensão oral 125 mg/5 ml; 200 mg/5 ml; 250 mg/5 ml; 500 mg/5ml e BD: 400 mg/5 ml",
+    "IDADE": "A partir de 2 meses",
+    "CONTRADICAO": "Hipersensibilidade a qualquer componente da fórmula",
+    "POSOLOGIA": "ADULTOS: 1 comprimido de 500 mg de 8/8h OU 1 comprimido de 875 mg de 12/12h\nCRIANÇAS: 25 mg/kg/dia para infecções leves OU 45 mg/kg/dia para infecções mais sérias",
+    "GRAVIDEZ": "Sim (Categoria B)",
+    "LACTACAO": "Sim. A bula informa que uma pequena quantidade da medicação é excretada pelo leite, portanto podem ocorrer na criança: diarreia, candidíase e rash cutâneo",
+    "INTERACOES_MEDICAMENTOSAS": "- Probenecida: pode diminuir a secreção renal de amoxicilina\n- Pode reduzir a absorção de contraceptivos orais\n- Alopurinol: administração concomitante pode aumentar probabilidade de reações alérgicas de pele\n- Digoxina: administração concomitante pode aumentar sua absorção",
+    "REACOES_ADVERSAS": "- Hipersensibilidade cutânea\n- Manifestações gastrintestinais",
+    "INSUFICIENCIA_RENAL": "TFG < 30 mL/min: não recomendado o uso\nTFG > 30 mL/min: não é necessário ajuste de dose",
+    "INFORMACOES_IMPORTANTES": "Não se aplica"
+  }]
+}

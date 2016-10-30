@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "938548331273",
+    "firebase_url": "https://eorlapp-831d6.firebaseio.com",
+    "project_id": "eorlapp-831d6",
+    "storage_bucket": "eorlapp-831d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938548331273:android:3b0390112470075b",
+        "android_client_info": {
+          "package_name": "com.example.luizh.projeto_eorl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938548331273-uknvjus7hls78mg5r2giq6jkh8dacqau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luizh.projeto_eorl",
+            "certificate_hash": "80D661DDF6D77933A5020F0E9A29AC61FA16343D"
+          }
+        },
+        {
+          "client_id": "938548331273-3op84s2v8sqlhp7fuov3uhr26ibb3dbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4UohcNpPF5parfQmB6Ef80MnL69D3QKI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

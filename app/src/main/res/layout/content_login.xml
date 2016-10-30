@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:background="@color/colorBackGround">
+
+    <ProgressBar
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logopequena2"
+        android:layout_marginTop="-1dp"
+        android:foregroundGravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtEmail"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/str_email"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/edtPassword"
+        android:layout_below="@+id/edtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="@string/str_senha"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueci minha senha"
+        android:id="@+id/txvFgtPassword"
+        android:layout_below="@+id/edtPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:linksClickable="true"
+        android:textColor="#0000ff"
+        android:clickable="true"
+        android:onClick="callReset"
+        />
+
+    <Button
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Entrar"
+        android:id="@+id/button"
+        android:layout_below="@+id/txvFgtPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorBackGround"
+        android:textStyle="normal"
+        android:onClick="sendLoginData"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Logar com o Google"
+        android:id="@+id/buttonGoogle"
+        android:layout_below="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@drawable/common_google_signin_btn_icon_light_normal"
+        android:background="@color/colorBackGround"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        style="?android:textAppearanceSmall"
+        android:textStyle="normal"
+        android:onClick="sendGoogleLoginData"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:text="Cadastre-se"
+        android:id="@+id/txvCad"
+        android:layout_below="@+id/buttonGoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:linksClickable="true"
+        android:textColor="#0000ff"
+        android:clickable="true"
+        android:onClick="signUp" />
+
+</RelativeLayout>

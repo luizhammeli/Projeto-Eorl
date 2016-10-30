@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SignUpActivity"
+    tools:showIn="@layout/activity_sing_up">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sig_up_progressBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        />
+
+    <ScrollView
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/sign_up_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logoImg"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logocadastro"/>
+
+            <android.support.design.widget.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/actNome"
+                android:layout_alignTop="@+id/sign_up_form"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/logoImg"
+                android:maxLines="1"
+                android:inputType="textPersonName|text"
+                android:singleLine="true"
+                android:hint="@string/str_name"
+                android:textSize="15dp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/actEmail"
+                    android:layout_below="@+id/ActNome"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/str_email"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="15dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_confirm_email"
+                    android:id="@+id/actCofirmEmail"
+                    android:layout_below="@+id/ActEmail"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:inputType="textEmailAddress"
+                    android:textSize="15dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:ems="10"
+                    android:id="@+id/EdtDataNascimento"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="5dp"
+                    android:hint="@string/str_data_nascimento"
+                    android:onClick="onClickDataNascimento" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_senha"
+                    android:id="@+id/edtSenha"
+                    android:layout_below="@+id/EdtDataNascimento"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionUnspecified"
+                    android:imeActionLabel="@string/str_sing_senha"
+                    android:imeActionId="@+id/sign_up_form"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/str_confirm_senha"
+                    android:id="@+id/edtConfSenha"
+                    android:layout_below="@+id/EdtDataNascimento"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="5dp"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:imeOptions="actionUnspecified"
+                    android:imeActionLabel="@string/str_sing_senha"
+                    android:imeActionId="@+id/sign_up_form" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/str_cadastrar"
+                android:id="@+id/btnCad"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                style="?android:textAppearanceSmall"
+                android:onClick="sendSignData"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorBackGround"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
