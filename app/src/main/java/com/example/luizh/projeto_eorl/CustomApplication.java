@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 /**
  * Created by luizh on 07/05/2016.
  */
+
 public class CustomApplication extends Application
 {
     private String jsonMainFile;
